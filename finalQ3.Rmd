@@ -33,13 +33,30 @@ $$H_A: \text{Voter turnout was affected by the region of the country in 2016 (De
 Since out two variables are both categorical: Region and VOTE16, we will be using the Cat~Cat helper file to answer our question.
 
 # Data Description
-
+We will begin by sub-setting the data to the three regions we are working with "SOUTH ATLANTIC", "PACIFIC", "MOUNTAIN".
+```{r}
+sub_data <- subset(GSSdata, REGION %in% c("SOUTH ATLANTIC", "PACIFIC", "MOUNTAIN"))
+```
+Using this new data with only the region we are using for this question we will create a bar plot. 
 
 ## Graphial Description 
 
+```{r}
+barchartGC(~VOTE16 + REGION,data=sub_data, type="percent")
 
+```
+
+
+The bar chart rendered suggests there is a difference of the voter turnout across the three regions. We can visually see the voter turnout was highest among the SOUTH ATLANTIC region. We can also see that the PACIFIC region had the highest non voter percentage while MOUNTAIN regions had the lowest amount of voters. 
 
 ## Numberical Description
+
+```{r}
+table1 <- xtabs(~VOTE16 + REGION, data=sub_data)
+rowPerc(table1)
+```
+
+The numerical summary rendered supports the suggestion given in graphical results. We can see that the PACIFIC region had the highest percentage of non voters, SOUTH ATLANTIC had the highest percentage of voters while MOUNTAINS had the lowest voter and non voter percentage. 
 
 # Inferential results
 
