@@ -1,0 +1,41 @@
+---
+title: "Final Q3"
+author: "Leah  Castro Galvan"
+date: "2026-05-15"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tigerstats)
+library(tidyverse)
+```
+
+Final Q3.   This question is based on the GSS.csv data set.   The research questions is this:  "Is there a difference in the 2016 voter turnout based on region of the country?"
+
+In the GSS.csv data set, Voted is the variable recording whether one voted in 2016 or not.
+For purposes of this problem, compare regions SOUTH ATLANTIC, PACIFIC, AND MOUNTAIN
+
+Your mission, should you decide to accept, is to analyze the GSS data for these three regions, and answer the research question. 
+
+# Introduction
+```{r}
+GSSdata = read.csv('GSS1996.csv')
+```
+We begin by loading in out data GSS1996.csv so we can answer our research question: 
+Is there a difference in the 2016 voter turnout based on region of the country?
+
+# Methods
+
+# Data Description
+
+## Graphial Description 
+
+## Numberical Description
+
+# Inferential results
+
+# Summary and Conclustions
+
+
+
