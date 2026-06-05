@@ -23,13 +23,21 @@ Your mission, should you decide to accept, is to analyze the GSS data for these 
 GSSdata = read.csv('GSS1996.csv')
 ```
 We begin by loading in out data GSS1996.csv so we can answer our research question: 
-Is there a difference in the 2016 voter turnout based on region of the country?
+Is there a difference in the 2016 voter turnout based on region of the country? Which in this problem we will narrow to SOUTH ATLANTIC, PACIFIC, AND MOUNTAIN. 
 
 # Methods
 
+Our hypotheses for this research question are:
+$$H_0: \text{Voter turnout and region of the country had no relationship in 2016(Independent)}$$
+$$H_A: \text{Voter turnout was affected by the region of the country in 2016 (Dependent)}$$ 
+Since out two variables are both categorical: Region and VOTE16, we will be using the Cat~Cat helper file to answer our question.
+
 # Data Description
 
+
 ## Graphial Description 
+
+
 
 ## Numberical Description
 
