@@ -67,5 +67,5 @@ Based on the inferential results rendered, we can see out p-value is 0.0118, whi
 
 # Summary and Conclustions
 
-
+In this project we had to answer the research question: Is there a difference in the 2016 voter turnout based on region of the country? For this problem we looked at the regions,  SOUTH ATLANTIC, PACIFIC, AND MOUNTAIN. In our Data Description section we were able to visualize the data using a bar chart which and see the numerical data, both of which suggested to me that that there may be a difference in voter turn out based on region. When I moved on to inferential results the p-value rendered was 0.0118. This was below 0.05 threshold for no statistical difference. The results rejected the null hypothesis and supports $$H_A: \text{Voter turnout was affected by the region of the country in 2016 (Dependent)}$$ 
 
