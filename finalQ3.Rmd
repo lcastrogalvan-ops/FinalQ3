@@ -60,6 +60,11 @@ The numerical summary rendered supports the suggestion given in graphical result
 
 # Inferential results
 
+```{r}
+chisqtestGC(table1)
+```
+Based on the inferential results rendered, we can see out p-value is 0.0118, which is less than than our p-value threshold of 0.05 for no difference. This confirms there is a statistical difference between voter turnout in the different regions SOUTH ATLANTIC, PACIFIC, AND MOUNTAINs. 
+
 # Summary and Conclustions
 
 
